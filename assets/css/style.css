@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Sun & Rain';
+    src: url("/assets/fonts/Sun\ &\ Rain.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Sun & Rain", sans-serif;
+}
+
+body {
+    background-image: url('/assets/images/raining.jpg');
+    font-family: "Climate Crisis", sans-serif;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    height: 75%;
+    border-radius: 2%;
+    background: linear-gradient(to right, #562f445b, #73596485, #241637c4, #584c6054);
+    box-shadow: rgb(0, 0, 0) 1.95px 1.95px 2.6px;
+}
+
+div {
+    text-align: center;
+    color: snow;
+    font-size: 2.5em;
+    margin: 10px;
+}
+
+div#gif {
+    width: 100%;
+    height: 40%;
+}
+
+div#gif>img {
+    width: 50%;
+    height: 100%;
+    border-radius: 50%;
+}
